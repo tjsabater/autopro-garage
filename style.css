@@ -227,3 +227,13 @@ footer li { padding: 3px 0; }
 .brand:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(249,115,22,0.25); }
 .brand:hover img { filter: none; opacity: 1; }
 @media (max-width: 900px) { .brand-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* ---------- Group project card ---------- */
+.group-info { background-color: var(--dark); color: #fff; border-left: 6px solid var(--accent); margin-bottom: 0; }
+.group-info h2 { color: #fff; margin-bottom: 4px; }
+.group-info h3 { color: var(--accent); margin-bottom: 8px; }
+.group-class { color: #cbd5e1; font-weight: 600; margin-top: 0; }
+.members { list-style-type: none; margin: 0; padding: 0; }
+.members li { padding: 8px 0; border-bottom: 1px solid #334155; }
+.members li:last-child { border-bottom: none; }
+.members li::before { content: "\1F464  "; }
