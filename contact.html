@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoPro Garage | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Auto<span>Pro</span> Garage</a>
+      <input type="checkbox" id="menu" class="menu-toggle">
+      <label for="menu" class="menu-btn">&#9776;</label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+639000000000" class="header-phone">&#9742; 0900-000-0000</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Book an Appointment</h1>
+    <p>We'll respond within 24 hours.</p>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid-2" style="align-items:start;">
+      <div class="card">
+        <h2>Appointment Form</h2>
+        <form action="#" method="post">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+
+          <label for="plate">Plate Number</label>
+          <input type="text" id="plate" name="plate">
+
+          <label for="pw">Password (to track your booking)</label>
+          <input type="password" id="pw" name="pw">
+
+          <label>Service Needed</label>
+          <div class="options">
+            <label><input type="checkbox" name="svc" value="oil"> Change Oil</label>
+            <label><input type="checkbox" name="svc" value="brake"> Brake Service</label>
+            <label><input type="checkbox" name="svc" value="aircon"> Aircon Cleaning</label>
+            <label><input type="checkbox" name="svc" value="diag"> Diagnostics</label>
+          </div>
+
+          <label>Vehicle Type</label>
+          <div class="options">
+            <label><input type="radio" name="type" value="sedan"> Sedan</label>
+            <label><input type="radio" name="type" value="suv"> SUV</label>
+            <label><input type="radio" name="type" value="truck"> Truck</label>
+          </div>
+
+          <input type="submit" class="btn" value="Book Now">
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Contact Details</h2>
+        <ul class="checks">
+          <li>Phone: <a href="tel:+639000000000">0900-000-0000</a></li>
+          <li>Email: <a href="mailto:info@autoprogarage.example">info@autoprogarage.example</a></li>
+          <li>Address: Legarda, Sampaloc, Manila</li>
+          <li>Hours: Mon&ndash;Sat, 8:00 AM &ndash; 6:00 PM</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><h3>AutoPro Garage</h3><p>Honest repairs. Reliable service. Back on the road.</p></div>
+      <div><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h3>Visit Us</h3><p>Legarda, Sampaloc, Manila<br>Mon&ndash;Sat, 8:00 AM &ndash; 6:00 PM<br>0900-000-0000</p></div>
+    </div>
+    <div class="container copyright">&copy; 2026 AutoPro Garage. All rights reserved.</div>
+  </footer>
+</body>
+</html>

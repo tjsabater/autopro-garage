@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="900" height="300" fill="#222"/>
+  <rect y="230" width="900" height="70" fill="#444"/>
+  <path d="M200 200 L260 130 Q280 115 320 115 L520 115 Q560 115 585 140 L650 200 Z" fill="#c62828"/>
+  <rect x="150" y="190" width="550" height="45" rx="12" fill="#c62828"/>
+  <path d="M285 135 L330 135 L330 188 L240 188 Z" fill="#9ad"/>
+  <path d="M350 135 L510 135 L545 188 L350 188 Z" fill="#9ad"/>
+  <circle cx="260" cy="238" r="38" fill="#111"/><circle cx="260" cy="238" r="18" fill="#ccc"/>
+  <circle cx="590" cy="238" r="38" fill="#111"/><circle cx="590" cy="238" r="18" fill="#ccc"/>
+  <text x="450" y="60" font-family="Arial" font-size="40" font-weight="bold" fill="#ffb400" text-anchor="middle">AUTOPRO GARAGE</text>
+</svg>
